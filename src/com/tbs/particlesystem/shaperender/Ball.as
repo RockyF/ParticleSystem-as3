@@ -1,7 +1,7 @@
 /**
  * Created by lenovo on 14-3-7.
  */
-package com.tbs.particlesystem {
+package com.tbs.particlesystem.shaperender {
 import flash.display.GradientType;
 import flash.display.Shape;
 import flash.geom.Matrix;
