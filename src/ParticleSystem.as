@@ -1,5 +1,6 @@
 package {
 
+import com.tbs.particlesystem.IParticleStage;
 import com.tbs.particlesystem.cacherender.CacheRender;
 import com.tbs.particlesystem.shaperender.ShapeRender;
 
@@ -18,8 +19,9 @@ public class ParticleSystem extends Sprite {
 		stage.align = StageAlign.TOP_LEFT;
 		stage.scaleMode = StageScaleMode.NO_SCALE;
 
+		var render:CacheRender;
 		addChild(new ShapeRender());
-		//addChild(new CacheRender());
+		//addChild(render = new CacheRender());
 	}
 }
 }

@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02348a45-56d4-4d6c-a655-b8c95c678b75" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tbs/particlesystem/shaperender/Ball.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tbs/particlesystem/cacherender/CacheRender.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tbs/particlesystem/IParticleStage.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/RockyF.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tbs/particlesystem/shaperender/ShapeRender.as" />
-      <change type="DELETED" beforePath="E:\Workspaces\idea\ParticleSystem-as3\src\com\tbs\particlesystem\Ball.as" afterPath="" />
-      <change type="DELETED" beforePath="E:\Workspaces\idea\ParticleSystem-as3\src\com\tbs\particlesystem\PVector.as" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tbs/particlesystem/Particle.as" afterPath="$PROJECT_DIR$/src/com/tbs/particlesystem/Particle.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tbs/particlesystem/cacherender/CacheRender.as" afterPath="$PROJECT_DIR$/src/com/tbs/particlesystem/cacherender/CacheRender.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ParticleSystem.as" afterPath="$PROJECT_DIR$/src/ParticleSystem.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ParticleSystem.iml" afterPath="$PROJECT_DIR$/ParticleSystem.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ParticleSystem.iws" />
@@ -24,6 +15,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -80,9 +76,21 @@
       <file leaf-file-name="ParticleSystem.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ParticleSystem.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="496">
+            <state line="16" column="0" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0" vertical-offset="112" max-vertical-offset="528">
               <folding>
-                <element signature="e#11#65#0" expanded="true" />
+                <element signature="e#11#56#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CacheRender.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/tbs/particlesystem/cacherender/CacheRender.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="64" column="3" selection-start="1745" selection-end="1745" vertical-scroll-proportion="0.0" vertical-offset="331" max-vertical-offset="1312">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#85#130#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,18 +99,19 @@
       <file leaf-file-name="ShapeRender.as" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/tbs/particlesystem/shaperender/ShapeRender.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="36" selection-start="651" selection-end="651" vertical-scroll-proportion="0.05785124" vertical-offset="372" max-vertical-offset="1312">
+            <state line="54" column="34" selection-start="1335" selection-end="1335" vertical-scroll-proportion="0.24421594" vertical-offset="769" max-vertical-offset="1344">
               <folding>
+                <element signature="n#!!doc" expanded="true" />
                 <element signature="e#85#130#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ball.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tbs/particlesystem/shaperender/Ball.as">
+      <file leaf-file-name="World.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/tbs/particlesystem/World.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="5" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="400">
+            <state line="5" column="42" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
               <folding />
             </state>
           </provider>
@@ -111,21 +120,8 @@
       <file leaf-file-name="Particle.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/tbs/particlesystem/Particle.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="558" selection-end="558" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1072">
+            <state line="7" column="42" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1072">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CacheRender.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tbs/particlesystem/cacherender/CacheRender.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="48" selection-start="1592" selection-end="1592" vertical-scroll-proportion="0.0" vertical-offset="576" max-vertical-offset="1152">
-              <folding>
-                <element signature="e#85#130#0" expanded="true" />
-                <marker date="1394214748388" expanded="true" signature="1137:1492" placeholder="{...}" />
-                <marker date="1394214748388" expanded="true" signature="1544:1670" placeholder="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -145,15 +141,12 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/com/tbs/particlesystem/Vector.as" />
+        <option value="$PROJECT_DIR$/src/com/tbs/particlesystem/PVector.as" />
+        <option value="$PROJECT_DIR$/src/com/tbs/particlesystem/Particle.as" />
         <option value="$PROJECT_DIR$/src/com/tbs/particlesystem/Ball.as" />
         <option value="$PROJECT_DIR$/src/com/tbs/particlesystem/World.as" />
-        <option value="$PROJECT_DIR$/src/com/tbs/particlesystem/ParticleStage.as" />
-        <option value="$PROJECT_DIR$/src/com/tbs/particlesystem/IParticleStage.as" />
-        <option value="$PROJECT_DIR$/src/com/tbs/particlesystem/shapebase/Ball.as" />
-        <option value="$PROJECT_DIR$/src/com/tbs/particlesystem/PVector.as" />
         <option value="$PROJECT_DIR$/src/com/tbs/particlesystem/cacherender/CacheRender.as" />
         <option value="$PROJECT_DIR$/src/ParticleSystem.as" />
-        <option value="$PROJECT_DIR$/src/com/tbs/particlesystem/Particle.as" />
         <option value="$PROJECT_DIR$/src/com/tbs/particlesystem/shaperender/ShapeRender.as" />
       </list>
     </option>
@@ -162,8 +155,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1456" />
-    <option name="height" value="886" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -193,6 +186,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -207,7 +202,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ParticleSystem-as3" />
+              <option name="myItemId" value="ParticleSystem" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -217,7 +212,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ParticleSystem-as3" />
+              <option name="myItemId" value="ParticleSystem" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -231,7 +226,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ParticleSystem-as3" />
+              <option name="myItemId" value="ParticleSystem" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -249,7 +244,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ParticleSystem-as3" />
+              <option name="myItemId" value="ParticleSystem" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -271,7 +266,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ParticleSystem-as3" />
+              <option name="myItemId" value="ParticleSystem" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -289,8 +284,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -309,17 +302,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="LayoutCode.rearrangeEntriesECMA Script Level 4" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
-      <recent name="com.tbs.particlesystem.cacherender" />
-      <recent name="com.tbs.particlesystem.shaperender" />
       <recent name="com.tbs.particlesystem" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Workspaces\idea\ParticleSystem-as3\src\com\tbs\particlesystem\shapebase" />
     </key>
   </component>
   <component name="RunManager" selected="Flash App.ParticleSystem">
@@ -469,10 +458,6 @@
       <option name="usbDebugPort" value="7936" />
       <method />
     </configuration>
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
-      <method />
-    </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -493,6 +478,10 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
     <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" output_log_level="null" package_name="" scope="Class">
       <option name="BCName" value="" />
       <option name="launcherParameters">
@@ -505,30 +494,6 @@
       </option>
       <option name="moduleName" value="" />
       <option name="trusted" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Cocos2dx-JS" factoryName="Cocos2dx-JS">
-      <option name="scriptType" value="Javascript" />
-      <browser start="false" url="" with-js-debugger="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="myFilePath" />
-      <option name="GLUE" />
-      <option name="myNameFilter" />
-      <option name="myGeneratedName" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="GoTestConfiguration" factoryName="Go Test">
@@ -550,6 +515,25 @@
       <option name="testBeforeBenchmark" value="false" />
       <option name="goVetEnabled" value="false" />
       <module name="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -657,46 +641,46 @@
       <changelist id="02348a45-56d4-4d6c-a655-b8c95c678b75" name="Default" comment="" />
       <created>1394168576894</created>
       <updated>1394168576894</updated>
-      <workItem from="1394168578661" duration="8425000" />
-      <workItem from="1394205824577" duration="8578000" />
+      <workItem from="1394168578661" duration="10820000" />
+      <workItem from="1394217306340" duration="299000" />
+      <workItem from="1394217643523" duration="21000" />
+      <workItem from="1394217718882" duration="17000" />
+      <workItem from="1394260967373" duration="6226000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17003000" />
+    <option name="totallyTimeSpent" value="17383000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Particles&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30084035" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19742489" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Animations&#9;" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="ImagePreview&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29711142" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287483" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -725,9 +709,9 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/ParticleSystem.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="41" selection-start="965" selection-end="965" vertical-scroll-proportion="0.0" vertical-offset="451" max-vertical-offset="1024">
+        <state line="25" column="0" selection-start="622" selection-end="622" vertical-scroll-proportion="0.0" vertical-offset="400" max-vertical-offset="496">
           <folding>
-            <element signature="e#11#65#0" expanded="true" />
+            <element signature="e#11#56#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -739,86 +723,129 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tbs/particlesystem/shaperender/Ball.as">
+    <entry file="file://$PROJECT_DIR$/src/com/tbs/particlesystem/Particle.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="35" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="464">
+        <state line="26" column="26" selection-start="681" selection-end="681" vertical-scroll-proportion="0.0" vertical-offset="416" max-vertical-offset="1072">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParticleSystem.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="622" selection-end="622" vertical-scroll-proportion="0.0" vertical-offset="400" max-vertical-offset="496">
+          <folding>
+            <element signature="e#11#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tbs/particlesystem/World.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="42" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0" vertical-offset="80" max-vertical-offset="272">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tbs/particlesystem/Particle.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="694" selection-end="694" vertical-scroll-proportion="0.0" vertical-offset="528" max-vertical-offset="592">
+        <state line="13" column="25" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0" vertical-offset="208" max-vertical-offset="1072">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParticleSystem.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="41" selection-start="965" selection-end="965" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1024">
+          <folding>
+            <element signature="e#11#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tbs/particlesystem/World.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="42" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0" vertical-offset="80" max-vertical-offset="272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tbs/particlesystem/Particle.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="25" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0" vertical-offset="208" max-vertical-offset="592">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParticleSystem.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="41" selection-start="965" selection-end="965" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1024">
+          <folding>
+            <element signature="e#11#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tbs/particlesystem/World.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="42" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0" vertical-offset="80" max-vertical-offset="272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tbs/particlesystem/Particle.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="63" selection-start="294" selection-end="294" vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="592">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tbs/particlesystem/Particle.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="42" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1072">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tbs/particlesystem/World.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="171" selection-end="171" vertical-scroll-proportion="0.20571429" vertical-offset="0" max-vertical-offset="700">
+        <state line="5" column="42" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/Media/S-Cute 324 xiazai.txt">
+    <entry file="file://$PROJECT_DIR$/src/com/tbs/particlesystem/shaperender/Ball.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="700">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/Program Files (x86)/Adobe/Adobe Flash Builder 4.6/sdks/4.6.0/frameworks/libs/player/11.1/playerglobal.swc!/library.swf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3522" column="13" selection-start="151718" selection-end="151718" vertical-scroll-proportion="0.3319149" vertical-offset="56196" max-vertical-offset="154048">
-          <folding />
+        <state line="12" column="26" selection-start="307" selection-end="552" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tbs/particlesystem/cacherender/CacheRender.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="48" selection-start="1592" selection-end="1592" vertical-scroll-proportion="0.0" vertical-offset="576" max-vertical-offset="1152">
+        <state line="64" column="3" selection-start="1745" selection-end="1745" vertical-scroll-proportion="0.0" vertical-offset="331" max-vertical-offset="1312">
           <folding>
+            <element signature="n#!!doc" expanded="true" />
             <element signature="e#85#130#0" expanded="true" />
-            <marker date="1394214748388" expanded="true" signature="1137:1492" placeholder="{...}" />
-            <marker date="1394214748388" expanded="true" signature="1544:1670" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ParticleSystem.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="496">
+        <state line="16" column="0" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0" vertical-offset="112" max-vertical-offset="528">
           <folding>
-            <element signature="e#11#65#0" expanded="true" />
+            <element signature="e#11#56#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tbs/particlesystem/shaperender/Ball.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="5" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="400">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tbs/particlesystem/Particle.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="558" selection-end="558" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1072">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tbs/particlesystem/IParticleStage.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="33" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0661157" vertical-offset="0" max-vertical-offset="484">
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tbs/particlesystem/shaperender/ShapeRender.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="36" selection-start="651" selection-end="651" vertical-scroll-proportion="0.05785124" vertical-offset="372" max-vertical-offset="1312">
+        <state line="54" column="34" selection-start="1335" selection-end="1335" vertical-scroll-proportion="0.24421594" vertical-offset="769" max-vertical-offset="1344">
           <folding>
+            <element signature="n#!!doc" expanded="true" />
             <element signature="e#85#130#0" expanded="true" />
           </folding>
         </state>
