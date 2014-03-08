@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02348a45-56d4-4d6c-a655-b8c95c678b75" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tbs/particlesystem/cacherender/CacheRender.as" afterPath="$PROJECT_DIR$/src/com/tbs/particlesystem/cacherender/CacheRender.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ParticleSystem.as" afterPath="$PROJECT_DIR$/src/ParticleSystem.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ParticleSystem.iws" />
@@ -99,7 +97,7 @@
       <file leaf-file-name="ShapeRender.as" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/tbs/particlesystem/shaperender/ShapeRender.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="34" selection-start="1335" selection-end="1335" vertical-scroll-proportion="0.24421594" vertical-offset="769" max-vertical-offset="1344">
+            <state line="59" column="39" selection-start="1655" selection-end="1655" vertical-scroll-proportion="0.44987145" vertical-offset="769" max-vertical-offset="1344">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#85#130#0" expanded="true" />
@@ -645,12 +643,17 @@
       <workItem from="1394217306340" duration="299000" />
       <workItem from="1394217643523" duration="21000" />
       <workItem from="1394217718882" duration="17000" />
-      <workItem from="1394260967373" duration="6226000" />
+      <workItem from="1394260967373" duration="6849000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit&#10;">
+      <created>1394270158347</created>
+      <updated>1394270158347</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17383000" />
+    <option name="totallyTimeSpent" value="18006000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -696,6 +699,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Initial commit&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -843,7 +848,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tbs/particlesystem/shaperender/ShapeRender.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="34" selection-start="1335" selection-end="1335" vertical-scroll-proportion="0.24421594" vertical-offset="769" max-vertical-offset="1344">
+        <state line="59" column="39" selection-start="1655" selection-end="1655" vertical-scroll-proportion="0.44987145" vertical-offset="769" max-vertical-offset="1344">
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#85#130#0" expanded="true" />
