@@ -8,9 +8,7 @@ import flash.geom.Matrix;
 
 public class Ball extends Shape {
 	private static var matrix:Matrix;
-	private static const R:Number = 10;
-
-	public function Ball() {
+	public function Ball(R:int = 10) {
 		if(!matrix){
 			matrix = new Matrix();
 			matrix.createGradientBox(R * 2, R * 2, 0, -R, -R);

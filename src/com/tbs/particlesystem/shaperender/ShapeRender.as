@@ -54,12 +54,12 @@ public class ShapeRender extends Sprite implements IParticleStage {
 			var particle:Particle;
 			if(oldParticles.length > 0){
 				particle = oldParticles.shift();
-				particle.init(mouseX, Math.random() * 2 - 1, mouseY, Math.random() * 2 - 3, 1, -Math.random() * 0.5 - 0.1);
 			}else{
-				particle = Particle.create(mouseX, Math.random() * 2 - 1, mouseY, Math.random() * 2 - 3, 1, -Math.random() * 0.5 - 0.1);
-				particle.userData = new Ball();
+				particle = Particle.create();
+				particle.userData = new Ball(60);
 				particle.userData.blendMode = BlendMode.ADD;
 			}
+			particle.init(mouseX, Math.random() * 2 - 1, mouseY, Math.random() * 2 - 1, 1, -Math.random() * 0.1 - 0.05);
 			addChild(particle.userData as DisplayObject);
 			particles.push(particle);
 		}

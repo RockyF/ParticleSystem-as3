@@ -4,7 +4,7 @@
 package com.tbs.particlesystem {
 
 public class Particle {
-	public static function create(x:int, vx:Number, y:int, vy:Number, alpha:Number = 1, vAlpha:Number = 0, rotation:int = 0, vRotation:Number = 0):Particle{
+	public static function create(x:int = 0, vx:Number = 0, y:int = 0, vy:Number = 0, alpha:Number = 1, vAlpha:Number = 0, rotation:int = 0, vRotation:Number = 0):Particle{
 		var particle:Particle = new Particle();
 		particle.x = x;
 		particle.vx = vx;

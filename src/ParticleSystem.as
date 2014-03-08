@@ -20,8 +20,8 @@ public class ParticleSystem extends Sprite {
 		stage.scaleMode = StageScaleMode.NO_SCALE;
 
 		var render:CacheRender;
-		addChild(new ShapeRender());
-		//addChild(render = new CacheRender());
+		//addChild(new ShapeRender());
+		addChild(render = new CacheRender());
 	}
 }
 }
