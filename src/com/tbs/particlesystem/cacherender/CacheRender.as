@@ -12,8 +12,11 @@ import flash.display.BitmapData;
 import flash.display.BlendMode;
 import flash.display.Sprite;
 import flash.events.Event;
+import flash.events.MouseEvent;
+import flash.filters.BlurFilter;
 import flash.geom.ColorTransform;
 import flash.geom.Matrix;
+import flash.geom.Point;
 
 public class CacheRender extends Sprite implements IParticleStage {
 	private static const R:Number = 60;
@@ -44,12 +47,23 @@ public class CacheRender extends Sprite implements IParticleStage {
 			icon = new BitmapData(b.width, b.height, true, 0xFFFFFF);
 			matrix.createBox(1, 1, 0, b.width / 2, b.height / 2);
 			icon.draw(b, matrix);
+			//icon = bmpd;
 
 			addChild(_container = new Bitmap());
 			onResize();
 
-			addEventListener(Event.ENTER_FRAME, onEnterFrame);
+			addEventListener(MouseEvent.CLICK, onClick);
 		});
+	}
+
+	private var isPlaying:Boolean = true;
+	private function onClick(event:MouseEvent):void{
+		isPlaying = !isPlaying;
+		if(isPlaying){
+			removeEventListener(Event.ENTER_FRAME, onEnterFrame);
+		}else{
+			addEventListener(Event.ENTER_FRAME, onEnterFrame);
+		}
 	}
 
 	private function onResize(event:Event = null):void{
@@ -59,7 +73,7 @@ public class CacheRender extends Sprite implements IParticleStage {
 	}
 
 	private function onEnterFrame(event:Event):void {
-		make(5);
+		make(1);
 		update();
 	}
 
@@ -82,8 +96,8 @@ public class CacheRender extends Sprite implements IParticleStage {
 			particle.update();
 			render(particle);
 		}
-		_bmpdShow.fillRect(_bmpdShow.rect, 0xFFFFFF);
-		_bmpdShow.draw(_bmpdCache);
+		_bmpdShow.copyPixels(_bmpdCache, _bmpdCache.rect, new Point());
+		_bmpdShow.applyFilter(_bmpdShow, _bmpdShow.rect, new Point(), new BlurFilter(4, 4, 2));
 	}
 
 	public function render(particle:Particle):void {
